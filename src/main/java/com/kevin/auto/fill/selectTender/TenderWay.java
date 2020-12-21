@@ -48,9 +48,9 @@ public class TenderWay {
                 System.out.printf("element location: %s%n", e.getLocation());
             }
         });
-        MainApp.driver.findElement(By.tagName("body")).click();
         JavascriptExecutor js = (JavascriptExecutor) MainApp.driver;
         js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+        MainApp.driver.findElement(By.tagName("body")).click();
 
         // 按新增
         MainApp.driver.findElement(By.id("submit_button")).click();

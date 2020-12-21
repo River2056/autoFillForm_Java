@@ -3,15 +3,7 @@ package com.kevin.auto.fill.forms.components;
 import com.kevin.auto.fill.MainApp;
 import com.kevin.auto.fill.functions.Helper;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.util.List;
-import java.util.function.Function;
 
 public class Dep {
     private String city;

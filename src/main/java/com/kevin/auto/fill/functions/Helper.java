@@ -15,7 +15,7 @@ public class Helper {
     }
 
     public static Boolean waitForPageLoad() {
-        WebDriverWait wait = new WebDriverWait(MainApp.driver, 3000);
+        WebDriverWait wait = new WebDriverWait(MainApp.driver, 2000);
         JavascriptExecutor js = (JavascriptExecutor) MainApp.driver;
         return wait.until(new Function<WebDriver, Boolean>() {
             @Override
